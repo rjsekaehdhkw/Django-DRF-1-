@@ -5,17 +5,19 @@ Django 1차 과제
 
 1. args, kwargs를 사용하는 예제 코드 짜보기
 
-       first with args
+      first with args:
+      
       args = ("two", 3, 5)
-      > test_args_kwargs(
+      test_args_kwargs(
       args)
       arg1: two
       arg2: 3
       arg3: 5
 
-       now with kwargs:
-      > kwargs = {"arg3": 3, "arg2": "two", "arg1": 5}
-      > test_args_kwargs(kwargs)
+      now with kwargs:
+      
+      kwargs = {"arg3": 3, "arg2": "two", "arg1": 5}
+      test_args_kwargs(kwargs)
       arg1: 5
       arg2: two
       arg3: 3
